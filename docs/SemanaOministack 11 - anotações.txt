@@ -14,5 +14,7 @@ Install react app (nome do projeto)
 Instalando o Insominia para trabalhar com GET 
 e POST.
 
+Instalando NodeMon - Para não precisar reiniciar o servidor
 
+npm install nodemon -D
 
