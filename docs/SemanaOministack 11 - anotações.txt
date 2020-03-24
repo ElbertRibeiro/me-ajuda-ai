@@ -17,4 +17,7 @@ e POST.
 Instalando NodeMon - Para não precisar reiniciar o servidor
 
 npm install nodemon -D
+em porject/backend/package.json/
+
+onde tem: "teste" -> "start": "node (nome do aquivo).js"
 
