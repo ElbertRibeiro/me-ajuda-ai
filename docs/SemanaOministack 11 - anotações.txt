@@ -14,6 +14,34 @@ Install react app (nome do projeto)
 Instalando o Insominia para trabalhar com GET 
 e POST.
 
+
+/*
+    GET: listar/buscar uma informação no backend
+    POST: Criar uma informação no backend
+    PUT: ALterar uma informação
+    DELETE: Deletar uma informação
+*/
+
+/**
+ 
+    Tipos de parametros:
+
+    Query: Parametors enviados na rota
+           após "?" (filros, paginação)
+    
+    Route:  Parametros ultiliados para 
+            indentificar recursos
+
+    Request Body: Corpo da Requisição
+
+ */
+ 
+
+ /** ------SQLITE---------
+  * Driver: SELECT * FROM user
+  */
+
+
 Instalando NodeMon - Para não precisar reiniciar o servidor
 
 npm install nodemon -D
