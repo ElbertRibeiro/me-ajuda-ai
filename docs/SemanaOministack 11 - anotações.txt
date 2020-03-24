@@ -49,3 +49,11 @@ em porject/backend/package.json/
 
 onde tem: "teste" -> "start": "node (nome do aquivo).js"
 
+
+--------conectar com banco de dados--------
+
+install SQLITE3 
+install knex -> npx knex init
+
+em knextfile.js espesificar onde o banco será criado
+e o nome do arquivo
