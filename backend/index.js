@@ -2,6 +2,8 @@ const express = require('express');
 
 const app = express();
 
+app.use(express.json());
+
 /*
     GET: listar/buscar uma informação no backend
     POST: Criar uma informação no backend
@@ -19,11 +21,13 @@ const app = express();
     Route:  Parametros ultiliados para 
             indentificar recursos
 
+    Request Body: Corpo da Requisição
+
  */
  
-app.get('/users/:id', (request, response) => {
-    const params = request.params;
-    console.log(params);
+app.post('/users', (request, response) => {
+    const body = request.body;
+    console.log(body);
 
     return response.json({
         evento: 'Semana Oministack'
