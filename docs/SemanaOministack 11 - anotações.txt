@@ -57,3 +57,8 @@ install knex -> npx knex init
 
 em knextfile.js espesificar onde o banco será criado
 e o nome do arquivo
+
+
+
+
+Gerar um novo banco de dados
